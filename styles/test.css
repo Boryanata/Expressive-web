@@ -1,0 +1,257 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', 'Arial', sans-serif;
+    color: #222;
+    background-color: #FFFBF4;
+    overflow-x: hidden;
+}
+
+/* Embroidery pattern background */
+body {
+    background-image: url('../assets/img/bulgarian-embroidery-pattern.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    position: relative;
+}
+
+/* Semi-transparent overlay for readability */
+.overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.78);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Centered main content */
+.center-content {
+    position: relative;
+    z-index: 1;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3vw 2vw;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    color: #b3001b;
+    text-shadow: 0 2px 8px rgba(255,255,255,0.5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #1d3557;
+}
+
+/* Poem/emotion lines */
+#poem-visualization > div {
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+    transition: color 0.4s, opacity 0.4s;
+    line-height: 1.7;
+    font-family: inherit;
+}
+
+/* Example emotion color classes */
+.emotion-joy { color: #e63946; }
+.emotion-sadness { color: #457b9d; }
+.emotion-anger { color: #f77f00; }
+.emotion-fear { color: #6d597a; }
+.emotion-surprise { color: #43aa8b; }
+.emotion-neutral { color: #222; }
+
+/* Responsive design */
+@media (max-width: 700px) {
+    h1 { font-size: 2rem; }
+    .center-content { padding: 8vw 2vw; }
+    #poem-visualization > div { font-size: 1.05rem; }
+}
+
+.project-description {
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+    width: 230px;
+    max-width: 90vw;
+    min-height: 200px;
+    max-height: 80vh;
+    background: rgba(255,255,255,0.65);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 2em 1.2em;
+    font-size: 1.00rem;
+    color: #222;
+    border: 1.5px solid #eee;
+    overflow-y: auto;
+    z-index: 0.5; /* Make sure it's above other elements */
+    display: block;
+}
+
+.project-description h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #b3001b;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 700px) {
+    .project-description {
+        width: 98vw;
+        left: 1vw;
+        bottom: 1vw;
+        padding: 1.2em 0.7em;
+        font-size: 0.98rem;
+    }
+}
+
+/* === Poem Display Styles === */
+#poem-bg, #poem-en {
+    margin: 2.5em 0 1.5em 0;
+    background: rgba(255,255,255,0.92);
+    border-radius: 12px;
+    padding: 1.5em 1.2em;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    max-width: 600px;
+    width: 90vw;
+    text-align: left;
+}
+
+#poem-bg h2, #poem-en h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #b3001b;
+}
+
+.poem-author {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1em;
+}
+
+.poem-text {
+    overflow-x: auto;
+}
+
+.poem-text div {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.2em;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    font-family: inherit;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.7s forwards;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.poem-text div:hover {
+    z-index: 1000;
+    position: relative;
+    background: #ffe5ec;
+    color: #b3001b;
+    box-shadow: 0 2px 8px rgba(179,0,27,0.08);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.poem-text div .emotion-score {
+    display: none;
+    color: #b3001b;
+    margin-left: 0.7em;
+    font-size: 0.95em;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.poem-text div:hover .emotion-score {
+    display: inline;
+}
+
+.poem-columns {
+    display: flex;
+    gap: 0.5vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding-left: 5vw;
+}
+
+#hadji_dimitar_bg, #hadji_dimitar_en {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+    width: 100%;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+    .poem-columns {
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+    #hadji_dimitar_bg, #hadji_dimitar_en {
+        max-width: 95vw;
+        width: 100%;
+    }
+}
+
+.emotion-score {
+    display: none;
+    color: #b3001b; /* Red */
+    margin-left: 0.7em;
+    font-size: 0.95em;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.poem-text div:hover .emotion-score {
+    display: inline;
+}
+
+#hadji_dimitar_bg h2,
+#hadji_dimitar_en h2,
+#hadji_dimitar_bg .poem-author,
+#hadji_dimitar_en .poem-author {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
