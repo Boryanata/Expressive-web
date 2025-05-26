@@ -1,0 +1,425 @@
+[
+    {
+        "stanza_number": 1,
+        "text": "No man is an island,\nEntire of itself;\nEvery man is a piece of the continent,\nA part of the main.",
+        "emotions": [
+            {
+                "label": "approval",
+                "raw_score": 0.005722,
+                "rel_score": 0.537867
+            },
+            {
+                "label": "admiration",
+                "raw_score": 0.00081,
+                "rel_score": 0.076151
+            },
+            {
+                "label": "realization",
+                "raw_score": 0.000772,
+                "rel_score": 0.072596
+            },
+            {
+                "label": "disappointment",
+                "raw_score": 0.000612,
+                "rel_score": 0.057557
+            },
+            {
+                "label": "disapproval",
+                "raw_score": 0.000601,
+                "rel_score": 0.056469
+            },
+            {
+                "label": "sadness",
+                "raw_score": 0.000534,
+                "rel_score": 0.050169
+            },
+            {
+                "label": "optimism",
+                "raw_score": 0.000323,
+                "rel_score": 0.030364
+            },
+            {
+                "label": "remorse",
+                "raw_score": 0.000261,
+                "rel_score": 0.024575
+            },
+            {
+                "label": "love",
+                "raw_score": 0.000213,
+                "rel_score": 0.020058
+            },
+            {
+                "label": "caring",
+                "raw_score": 0.000125,
+                "rel_score": 0.011726
+            },
+            {
+                "label": "gratitude",
+                "raw_score": 0.000122,
+                "rel_score": 0.011503
+            },
+            {
+                "label": "annoyance",
+                "raw_score": 8.7e-05,
+                "rel_score": 0.008193
+            },
+            {
+                "label": "desire",
+                "raw_score": 6.4e-05,
+                "rel_score": 0.006056
+            },
+            {
+                "label": "grief",
+                "raw_score": 5.4e-05,
+                "rel_score": 0.005075
+            },
+            {
+                "label": "anger",
+                "raw_score": 5.3e-05,
+                "rel_score": 0.004999
+            },
+            {
+                "label": "confusion",
+                "raw_score": 5e-05,
+                "rel_score": 0.004704
+            },
+            {
+                "label": "amusement",
+                "raw_score": 4.1e-05,
+                "rel_score": 0.003835
+            },
+            {
+                "label": "joy",
+                "raw_score": 3.7e-05,
+                "rel_score": 0.003459
+            },
+            {
+                "label": "disgust",
+                "raw_score": 2.9e-05,
+                "rel_score": 0.0027
+            },
+            {
+                "label": "fear",
+                "raw_score": 2.6e-05,
+                "rel_score": 0.002411
+            },
+            {
+                "label": "excitement",
+                "raw_score": 2.2e-05,
+                "rel_score": 0.002098
+            },
+            {
+                "label": "pride",
+                "raw_score": 2e-05,
+                "rel_score": 0.001841
+            },
+            {
+                "label": "relief",
+                "raw_score": 1.7e-05,
+                "rel_score": 0.001554
+            },
+            {
+                "label": "nervousness",
+                "raw_score": 1.4e-05,
+                "rel_score": 0.001349
+            },
+            {
+                "label": "curiosity",
+                "raw_score": 1.4e-05,
+                "rel_score": 0.001328
+            },
+            {
+                "label": "surprise",
+                "raw_score": 8e-06,
+                "rel_score": 0.000742
+            },
+            {
+                "label": "embarrassment",
+                "raw_score": 7e-06,
+                "rel_score": 0.00062
+            }
+        ]
+    },
+    {
+        "stanza_number": 2,
+        "text": "If a clod be washed away by the sea,\nEurope is the less,\nAs well as if a promontory were:\nAs well as if a manor of thy friend's\nOr of thine own were.",
+        "emotions": [
+            {
+                "label": "optimism",
+                "raw_score": 0.000605,
+                "rel_score": 0.216391
+            },
+            {
+                "label": "confusion",
+                "raw_score": 0.000543,
+                "rel_score": 0.194169
+            },
+            {
+                "label": "realization",
+                "raw_score": 0.000331,
+                "rel_score": 0.118336
+            },
+            {
+                "label": "approval",
+                "raw_score": 0.000243,
+                "rel_score": 0.086914
+            },
+            {
+                "label": "admiration",
+                "raw_score": 0.000138,
+                "rel_score": 0.049349
+            },
+            {
+                "label": "disappointment",
+                "raw_score": 0.00013,
+                "rel_score": 0.046495
+            },
+            {
+                "label": "remorse",
+                "raw_score": 0.000115,
+                "rel_score": 0.041061
+            },
+            {
+                "label": "desire",
+                "raw_score": 9.4e-05,
+                "rel_score": 0.03369
+            },
+            {
+                "label": "disapproval",
+                "raw_score": 9.1e-05,
+                "rel_score": 0.032552
+            },
+            {
+                "label": "amusement",
+                "raw_score": 7.3e-05,
+                "rel_score": 0.026195
+            },
+            {
+                "label": "annoyance",
+                "raw_score": 6.6e-05,
+                "rel_score": 0.023459
+            },
+            {
+                "label": "caring",
+                "raw_score": 4.2e-05,
+                "rel_score": 0.015003
+            },
+            {
+                "label": "sadness",
+                "raw_score": 4.1e-05,
+                "rel_score": 0.014614
+            },
+            {
+                "label": "curiosity",
+                "raw_score": 3.6e-05,
+                "rel_score": 0.012742
+            },
+            {
+                "label": "love",
+                "raw_score": 3.2e-05,
+                "rel_score": 0.011408
+            },
+            {
+                "label": "anger",
+                "raw_score": 3e-05,
+                "rel_score": 0.010784
+            },
+            {
+                "label": "gratitude",
+                "raw_score": 3e-05,
+                "rel_score": 0.010686
+            },
+            {
+                "label": "disgust",
+                "raw_score": 3e-05,
+                "rel_score": 0.010582
+            },
+            {
+                "label": "joy",
+                "raw_score": 2.1e-05,
+                "rel_score": 0.007528
+            },
+            {
+                "label": "excitement",
+                "raw_score": 2e-05,
+                "rel_score": 0.007111
+            },
+            {
+                "label": "fear",
+                "raw_score": 1.9e-05,
+                "rel_score": 0.00687
+            },
+            {
+                "label": "grief",
+                "raw_score": 1.6e-05,
+                "rel_score": 0.005801
+            },
+            {
+                "label": "pride",
+                "raw_score": 1.3e-05,
+                "rel_score": 0.004531
+            },
+            {
+                "label": "nervousness",
+                "raw_score": 1.1e-05,
+                "rel_score": 0.003978
+            },
+            {
+                "label": "embarrassment",
+                "raw_score": 1e-05,
+                "rel_score": 0.003612
+            },
+            {
+                "label": "surprise",
+                "raw_score": 9e-06,
+                "rel_score": 0.003386
+            },
+            {
+                "label": "relief",
+                "raw_score": 8e-06,
+                "rel_score": 0.002753
+            }
+        ]
+    },
+    {
+        "stanza_number": 3,
+        "text": "Any man's death diminishes me,\nBecause I am involved in mankind.\nAnd therefore never send to know for whom the bell tolls;\nIt tolls for thee.",
+        "emotions": [
+            {
+                "label": "grief",
+                "raw_score": 0.763274,
+                "rel_score": 0.792559
+            },
+            {
+                "label": "sadness",
+                "raw_score": 0.126013,
+                "rel_score": 0.130848
+            },
+            {
+                "label": "caring",
+                "raw_score": 0.04089,
+                "rel_score": 0.042459
+            },
+            {
+                "label": "fear",
+                "raw_score": 0.008317,
+                "rel_score": 0.008636
+            },
+            {
+                "label": "love",
+                "raw_score": 0.004219,
+                "rel_score": 0.004381
+            },
+            {
+                "label": "remorse",
+                "raw_score": 0.003453,
+                "rel_score": 0.003586
+            },
+            {
+                "label": "anger",
+                "raw_score": 0.002578,
+                "rel_score": 0.002677
+            },
+            {
+                "label": "disappointment",
+                "raw_score": 0.002062,
+                "rel_score": 0.002141
+            },
+            {
+                "label": "desire",
+                "raw_score": 0.001721,
+                "rel_score": 0.001787
+            },
+            {
+                "label": "realization",
+                "raw_score": 0.001354,
+                "rel_score": 0.001406
+            },
+            {
+                "label": "surprise",
+                "raw_score": 0.001213,
+                "rel_score": 0.001259
+            },
+            {
+                "label": "optimism",
+                "raw_score": 0.001171,
+                "rel_score": 0.001216
+            },
+            {
+                "label": "amusement",
+                "raw_score": 0.001155,
+                "rel_score": 0.0012
+            },
+            {
+                "label": "nervousness",
+                "raw_score": 0.001068,
+                "rel_score": 0.001109
+            },
+            {
+                "label": "joy",
+                "raw_score": 0.000879,
+                "rel_score": 0.000913
+            },
+            {
+                "label": "admiration",
+                "raw_score": 0.000858,
+                "rel_score": 0.000891
+            },
+            {
+                "label": "confusion",
+                "raw_score": 0.000526,
+                "rel_score": 0.000546
+            },
+            {
+                "label": "pride",
+                "raw_score": 0.000479,
+                "rel_score": 0.000497
+            },
+            {
+                "label": "curiosity",
+                "raw_score": 0.000316,
+                "rel_score": 0.000328
+            },
+            {
+                "label": "disgust",
+                "raw_score": 0.000253,
+                "rel_score": 0.000263
+            },
+            {
+                "label": "annoyance",
+                "raw_score": 0.000245,
+                "rel_score": 0.000254
+            },
+            {
+                "label": "approval",
+                "raw_score": 0.000228,
+                "rel_score": 0.000237
+            },
+            {
+                "label": "excitement",
+                "raw_score": 0.000226,
+                "rel_score": 0.000234
+            },
+            {
+                "label": "relief",
+                "raw_score": 0.000223,
+                "rel_score": 0.000231
+            },
+            {
+                "label": "gratitude",
+                "raw_score": 0.000171,
+                "rel_score": 0.000177
+            },
+            {
+                "label": "disapproval",
+                "raw_score": 0.000114,
+                "rel_score": 0.000119
+            },
+            {
+                "label": "embarrassment",
+                "raw_score": 4.4e-05,
+                "rel_score": 4.6e-05
+            }
+        ]
+    }
+]

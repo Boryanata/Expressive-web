@@ -1,0 +1,356 @@
+[
+    {
+        "stanza_number": 1,
+        "text": "No man is an island,\nEntire of itself;\nEvery man is a piece of the continent,\nA part of the main.",
+        "emotions": [
+            {
+                "label": "neutral",
+                "score": 0.9893617033958435
+            },
+            {
+                "label": "approval",
+                "score": 0.00572196813300252
+            },
+            {
+                "label": "admiration",
+                "score": 0.0008101086132228374
+            },
+            {
+                "label": "realization",
+                "score": 0.0007722977898083627
+            },
+            {
+                "label": "disappointment",
+                "score": 0.0006123082712292671
+            },
+            {
+                "label": "disapproval",
+                "score": 0.000600731757003814
+            },
+            {
+                "label": "sadness",
+                "score": 0.0005337055772542953
+            },
+            {
+                "label": "optimism",
+                "score": 0.00032302140607498586
+            },
+            {
+                "label": "remorse",
+                "score": 0.00026143831200897694
+            },
+            {
+                "label": "love",
+                "score": 0.00021338685473892838
+            },
+            {
+                "label": "caring",
+                "score": 0.00012474908726289868
+            },
+            {
+                "label": "gratitude",
+                "score": 0.00012237111513968557
+            },
+            {
+                "label": "annoyance",
+                "score": 8.715537114767358e-05
+            },
+            {
+                "label": "desire",
+                "score": 6.442327139666304e-05
+            },
+            {
+                "label": "grief",
+                "score": 5.399351357482374e-05
+            },
+            {
+                "label": "anger",
+                "score": 5.317538671079092e-05
+            },
+            {
+                "label": "confusion",
+                "score": 5.00389032822568e-05
+            },
+            {
+                "label": "amusement",
+                "score": 4.0793423977447674e-05
+            },
+            {
+                "label": "joy",
+                "score": 3.679945439216681e-05
+            },
+            {
+                "label": "disgust",
+                "score": 2.8723417926812544e-05
+            },
+            {
+                "label": "fear",
+                "score": 2.5644067136454396e-05
+            },
+            {
+                "label": "excitement",
+                "score": 2.2321552023640834e-05
+            },
+            {
+                "label": "pride",
+                "score": 1.958783650479745e-05
+            },
+            {
+                "label": "relief",
+                "score": 1.6532489098608494e-05
+            },
+            {
+                "label": "nervousness",
+                "score": 1.4353938240674324e-05
+            },
+            {
+                "label": "curiosity",
+                "score": 1.4122980246611405e-05
+            },
+            {
+                "label": "surprise",
+                "score": 7.897440809756517e-06
+            },
+            {
+                "label": "embarrassment",
+                "score": 6.600352662644582e-06
+            }
+        ]
+    },
+    {
+        "stanza_number": 2,
+        "text": "If a clod be washed away by the sea,\nEurope is the less,\nAs well as if a promontory were:\nAs well as if a manor of thy friend's\nOr of thine own were.",
+        "emotions": [
+            {
+                "label": "neutral",
+                "score": 0.9972026348114014
+            },
+            {
+                "label": "optimism",
+                "score": 0.0006053351098671556
+            },
+            {
+                "label": "confusion",
+                "score": 0.0005431728786788881
+            },
+            {
+                "label": "realization",
+                "score": 0.0003310345346108079
+            },
+            {
+                "label": "approval",
+                "score": 0.00024313374888151884
+            },
+            {
+                "label": "admiration",
+                "score": 0.0001380492903990671
+            },
+            {
+                "label": "disappointment",
+                "score": 0.00013006456720177084
+            },
+            {
+                "label": "remorse",
+                "score": 0.0001148649025708437
+            },
+            {
+                "label": "desire",
+                "score": 9.424446761840954e-05
+            },
+            {
+                "label": "disapproval",
+                "score": 9.106167271966115e-05
+            },
+            {
+                "label": "amusement",
+                "score": 7.327967614401132e-05
+            },
+            {
+                "label": "annoyance",
+                "score": 6.56243646517396e-05
+            },
+            {
+                "label": "caring",
+                "score": 4.197036105324514e-05
+            },
+            {
+                "label": "sadness",
+                "score": 4.088176865479909e-05
+            },
+            {
+                "label": "curiosity",
+                "score": 3.5645065509015694e-05
+            },
+            {
+                "label": "love",
+                "score": 3.191229188814759e-05
+            },
+            {
+                "label": "anger",
+                "score": 3.0166960641508922e-05
+            },
+            {
+                "label": "gratitude",
+                "score": 2.9892888051108457e-05
+            },
+            {
+                "label": "disgust",
+                "score": 2.9601991627714597e-05
+            },
+            {
+                "label": "joy",
+                "score": 2.105920975736808e-05
+            },
+            {
+                "label": "excitement",
+                "score": 1.9891984265996143e-05
+            },
+            {
+                "label": "fear",
+                "score": 1.9218987290514633e-05
+            },
+            {
+                "label": "grief",
+                "score": 1.6228847016463988e-05
+            },
+            {
+                "label": "pride",
+                "score": 1.2675624930125196e-05
+            },
+            {
+                "label": "nervousness",
+                "score": 1.1129091944894753e-05
+            },
+            {
+                "label": "embarrassment",
+                "score": 1.0103528438776266e-05
+            },
+            {
+                "label": "surprise",
+                "score": 9.472514648223296e-06
+            },
+            {
+                "label": "relief",
+                "score": 7.70123915572185e-06
+            }
+        ]
+    },
+    {
+        "stanza_number": 3,
+        "text": "Any man's death diminishes me,\nBecause I am involved in mankind.\nAnd therefore never send to know for whom the bell tolls;\nIt tolls for thee.",
+        "emotions": [
+            {
+                "label": "grief",
+                "score": 0.7632743716239929
+            },
+            {
+                "label": "sadness",
+                "score": 0.12601302564144135
+            },
+            {
+                "label": "caring",
+                "score": 0.04089021310210228
+            },
+            {
+                "label": "neutral",
+                "score": 0.036949533969163895
+            },
+            {
+                "label": "fear",
+                "score": 0.00831727497279644
+            },
+            {
+                "label": "love",
+                "score": 0.004218724090605974
+            },
+            {
+                "label": "remorse",
+                "score": 0.0034532027784734964
+            },
+            {
+                "label": "anger",
+                "score": 0.0025784350000321865
+            },
+            {
+                "label": "disappointment",
+                "score": 0.002062247134745121
+            },
+            {
+                "label": "desire",
+                "score": 0.0017208019271492958
+            },
+            {
+                "label": "realization",
+                "score": 0.0013535767793655396
+            },
+            {
+                "label": "surprise",
+                "score": 0.00121284497436136
+            },
+            {
+                "label": "optimism",
+                "score": 0.0011706463992595673
+            },
+            {
+                "label": "amusement",
+                "score": 0.0011554034426808357
+            },
+            {
+                "label": "nervousness",
+                "score": 0.0010678039398044348
+            },
+            {
+                "label": "joy",
+                "score": 0.0008788229315541685
+            },
+            {
+                "label": "admiration",
+                "score": 0.0008582808077335358
+            },
+            {
+                "label": "confusion",
+                "score": 0.0005260431207716465
+            },
+            {
+                "label": "pride",
+                "score": 0.00047908053966239095
+            },
+            {
+                "label": "curiosity",
+                "score": 0.00031584067619405687
+            },
+            {
+                "label": "disgust",
+                "score": 0.000253056816291064
+            },
+            {
+                "label": "annoyance",
+                "score": 0.0002450828324072063
+            },
+            {
+                "label": "approval",
+                "score": 0.00022805464686825871
+            },
+            {
+                "label": "excitement",
+                "score": 0.00022578240896109492
+            },
+            {
+                "label": "relief",
+                "score": 0.0002225645148428157
+            },
+            {
+                "label": "gratitude",
+                "score": 0.0001708623894955963
+            },
+            {
+                "label": "disapproval",
+                "score": 0.00011423178511904553
+            },
+            {
+                "label": "embarrassment",
+                "score": 4.423482823767699e-05
+            }
+        ]
+    }
+]

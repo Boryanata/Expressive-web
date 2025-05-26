@@ -1,0 +1,143 @@
+[
+    {
+        "stanza_number": 1,
+        "text": "This being human is a guest house.\nEvery morning a new arrival.\nA joy, a depression, a meanness,\nsome momentary awareness comes\nas an unexpected visitor.\nWelcome and entertain them all!\nEven if they are a crowd of sorrows,\nwho violently sweep your house\nempty of its furniture,\nstill, treat each guest honorably.\nHe may be clearing you out\nfor some new delight.\nThe dark thought, the shame, the malice.\nmeet them at the door laughing and invite them in.\nBe grateful for whatever comes.\nbecause each has been sent\nas a guide from beyond.",
+        "emotions": [
+            {
+                "label": "joy",
+                "raw_score": 0.573154,
+                "rel_score": 0.694024
+            },
+            {
+                "label": "gratitude",
+                "raw_score": 0.137899,
+                "rel_score": 0.16698
+            },
+            {
+                "label": "caring",
+                "raw_score": 0.055837,
+                "rel_score": 0.067612
+            },
+            {
+                "label": "relief",
+                "raw_score": 0.017704,
+                "rel_score": 0.021437
+            },
+            {
+                "label": "approval",
+                "raw_score": 0.014752,
+                "rel_score": 0.017863
+            },
+            {
+                "label": "admiration",
+                "raw_score": 0.00837,
+                "rel_score": 0.010136
+            },
+            {
+                "label": "optimism",
+                "raw_score": 0.006876,
+                "rel_score": 0.008326
+            },
+            {
+                "label": "excitement",
+                "raw_score": 0.003274,
+                "rel_score": 0.003965
+            },
+            {
+                "label": "realization",
+                "raw_score": 0.002358,
+                "rel_score": 0.002856
+            },
+            {
+                "label": "amusement",
+                "raw_score": 0.000853,
+                "rel_score": 0.001032
+            },
+            {
+                "label": "disappointment",
+                "raw_score": 0.000558,
+                "rel_score": 0.000676
+            },
+            {
+                "label": "disapproval",
+                "raw_score": 0.000552,
+                "rel_score": 0.000668
+            },
+            {
+                "label": "annoyance",
+                "raw_score": 0.000513,
+                "rel_score": 0.000621
+            },
+            {
+                "label": "pride",
+                "raw_score": 0.000496,
+                "rel_score": 0.000601
+            },
+            {
+                "label": "love",
+                "raw_score": 0.000471,
+                "rel_score": 0.00057
+            },
+            {
+                "label": "desire",
+                "raw_score": 0.000376,
+                "rel_score": 0.000455
+            },
+            {
+                "label": "remorse",
+                "raw_score": 0.000325,
+                "rel_score": 0.000394
+            },
+            {
+                "label": "confusion",
+                "raw_score": 0.000234,
+                "rel_score": 0.000284
+            },
+            {
+                "label": "disgust",
+                "raw_score": 0.00022,
+                "rel_score": 0.000267
+            },
+            {
+                "label": "curiosity",
+                "raw_score": 0.00022,
+                "rel_score": 0.000266
+            },
+            {
+                "label": "grief",
+                "raw_score": 0.000211,
+                "rel_score": 0.000256
+            },
+            {
+                "label": "surprise",
+                "raw_score": 0.0002,
+                "rel_score": 0.000242
+            },
+            {
+                "label": "sadness",
+                "raw_score": 0.000101,
+                "rel_score": 0.000122
+            },
+            {
+                "label": "fear",
+                "raw_score": 9.9e-05,
+                "rel_score": 0.00012
+            },
+            {
+                "label": "anger",
+                "raw_score": 8e-05,
+                "rel_score": 9.7e-05
+            },
+            {
+                "label": "nervousness",
+                "raw_score": 6.3e-05,
+                "rel_score": 7.6e-05
+            },
+            {
+                "label": "embarrassment",
+                "raw_score": 4.4e-05,
+                "rel_score": 5.3e-05
+            }
+        ]
+    }
+]
